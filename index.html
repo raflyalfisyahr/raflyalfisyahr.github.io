@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/fonts-icons/css/all.css">
+    <link rel="stylesheet" href="./src/css/theme-toggle.css">
+    <link rel="stylesheet" href="./src/css/particles.css">
+</head>
+<body>
+    <div class="container">
+        <div style="position: absolute;top:0;left: 0;bottom: 0;right: 0;" id="particles-js"></div>
+          <!-- particles.js container -->
+          
+        <!-- popup change theme -->
+        <!-- <div style="display: flex;justify-content: center;position: absolute;top: 0;left: 0;right: 0;transition: 1s;height: fit-content;background-color: red;">
+            <div class="change-popup-theme">
+                <h3>You change Theme to Dark</h2>
+            </div>
+        </div> -->
+        <!--end popup change theme -->
+        <!-- Toggle theme -->
+        <div class="overlay-widget-social" >
+            <span>
+                <i class="fas fa-plus"></i>
+                <!-- <i class="fas fa-times"></i> -->
+            </span>
+        </div>
+    <!-- end toggle theme -->
+
+        <!-- Toggle theme -->
+            <div class="overlay-widget" id="change-theme">
+                <span>
+                    <i class="fas fa-moon"></i>
+                </span>
+            </div>
+        <!-- end toggle theme -->
+
+        <!-- popup skill -->
+        <div class="modal-popup">
+            <div class="popup-skill">
+                <div class="header-popup">
+                    <small>Javascript</small>
+                    <button class="close-popup-skill"><i class="fas fa-times-circle"></i></button>
+                </div>
+                <div class="content-popup">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae tenetur nesciunt alias sapiente perferendis, reiciendis temporibus quod odio blanditiis. Maxime ipsum ipsa vel ipsam magnam exercitationem harum vero, reprehenderit praesentium!
+                </div>
+            </div>
+        </div>
+        <!-- end popup skill -->
+
+        <div class="content-box">
+            <div class="content">
+                <div style="margin:0 0 10px 0">
+                    <div class="absolute-header" ><div id=""></div></div>
+                    <div class="intro" id="page-intro">
+                        <!-- <div class="oos00123" data-content="Raflysyahr">Raflysyahr</div> -->
+                        <!-- <img src="./src/images/intro.png" class="bg" alt=""> -->
+                        <a href="./screens/downloads.html" class="link-download">Downloads</a>
+                        <div class="avatar">
+    
+                        </div>
+                        <small class="name">Rafly alfi syahr</small>
+                        <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, nostrum. Qui id natus sapiente libero mollitia labore sequi, dicta recusandae deleniti obcaecati eos commodi, repellendus consequuntur! Eos natus repudiandae dolore.</p>
+                    </div>
+                </div>
+                <div class="page-skill" id="page-skill">
+                    <div class="absolute-content"></div>
+                    <p class="title">My Skill</p>
+                        <div class="lists-skill">
+                            <span class="item-skill" data-item="Hypertext Markup Language is the standard markup language for documents designed to be displayed in internet browsers" data-fork="0"> <i class="fab fa-html5" style="font-size: 20px;margin: 0 10px 0 0;color: rgb(255, 81, 0);"></i> HTML</span>
+                            <span class="item-skill" data-item="CSS is a Cascading Style Sheet language and is usually used to set the appearance of elements written in a markup language, such as HTML." data-fork="5"> <i class="fab fa-css3" style="font-size: 20px;margin: 0 10px 0 0;color: rgb(44, 44, 255);"></i> Css</span>
+                            <span class="item-skill" data-item="JavaScript is one of the core technologies of the World Wide Web besides HTML and CSS. JavaScript helps create interactive web pages and is an essential part of web applications." data-fork="7"><i class="fab fa-js" style="font-size: 20px;margin: 0 10px 0 0;color: rgb(226, 226, 53);"></i>Javascript</span>
+                            <span class="item-skill" data-item="Node.js is a runtime for JavaScript environments outside of web browsers built on top of the V8 JavaScript engine. Node.js can be run on Windows, Mac OS X, and Linux." data-fork="0"> <i class="fab fa-node-js" style="font-size: 20px;margin: 0 10px 0 0;color: rgb(6, 236, 6);"></i> NodeJs</span>
+                            <span class="item-skill" data-item="React Native is a JavaScript-based framework that is used to develop mobile applications on two operating systems simultaneously, namely Android and iOS." data-fork="0"> <i class="fab fa-react" style="font-size: 20px;margin: 0 10px 0 0;color: rgba(91,91,255,1);"></i>  React native</span>
+                        </div>
+                        <div class="skill-show">
+                            <small class="text">Click Skill for show description</small>
+                            <div class="box-fork-skill">
+                            </div>
+                        </div>
+                </div>
+                <div class="page-project" id="page-project">
+                    <p class="title">My Project</p>
+                    <div class="block-project">
+                        <!-- <a href="#" class="item-project"></a> -->
+                        <div style="position: relative;height: 400px;width: 100%;text-align: center;line-height: 400px;color: gray;font-family: DejaVu Serif;">Belum ada project</div>
+                    </div>
+                    <div class="box-btn-more">
+                        <a href="./screens/project.html" class="btn-more">More project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="absolute-footer"></div>
+        </div>
+        <!-- <footer style="font-family: sans-serif;height:40px;display: flex;align-items: center;padding: 0 10px 0 10px;font-size: 13px;">Copyright &copy; raflysyahr | 2022</footer> -->
+    </div>
+
+    <script src="./src/js/main.js" ></script>
+    <script src="./src/js/theme.js"></script>
+      
+      <!-- scripts -->
+      <script src="./src/js/particles.js"></script>
+      <script src="./src/js/app.js"></script>
+      
+      <!-- stats.js -->
+      <script src="./src/lib/stats.js"></script>
+      sc
+     
+</body>
+</html>
